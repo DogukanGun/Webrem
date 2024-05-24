@@ -1,0 +1,12 @@
+from enum import Enum
+
+
+class EnvironmentKeys(Enum):
+    MONGO_URI = "MONGO_URI"
+    OS = "OS"
+    ACCESS_TOKEN_EXPIRE_MINUTES = "ACCESS_TOKEN_EXPIRE_MINUTES"
+    ALGORITHM = "ALGORITHM"
+    SECRET_KEY = "SECRET_KEY"
+    EMAIL_PASSWORD = "EMAIL_PASSWORD"
+    EMAIL = "EMAIL"
+    OTP_SECRET = "OTP_SECRET"
